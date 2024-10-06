@@ -26,7 +26,7 @@ const Services = () => {
                   </Link>
                 </div>
                 <h2 className='text-[32px] xl:text-[40px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500'>{service.title}</h2>
-                <p className='text-white/60'>{service.description}</p>
+                <p className='text-white/60 text-justify'>{service.description}</p>
                 
                 <div className='border-b border-white/20 w-full'></div>
               </div>

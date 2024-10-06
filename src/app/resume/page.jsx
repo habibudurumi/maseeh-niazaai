@@ -34,7 +34,7 @@ const Resume = () => {
                           <div className='flex items-start gap-2 bg-white/10 px-2 rounded-sm'>
                             <p className='text-accent'>{item.company}</p>
                           </div>
-                          <p className='w-full text-white/60 text-left mx-auto xl:mx-0'>{item.description}</p>
+                          <p className='w-full text-white/60 text-justify mx-auto xl:mx-0'>{item.description}</p>
                         </li>
                       )
                     })}
@@ -117,7 +117,7 @@ const Resume = () => {
             <TabsContent value='about' className='w-full'>
               <motion.div initial={{opacity: 0}} animate={{opacity:1, transition:{delay:0.5, duration:0.1, ease:'easeInOut'}}}  className='flex flex-col gap-[30px] bg-white/5 px-5 py-6 md:py-8 md:px-8 rounded-md'>
                 <h3 className='text-3xl text-left font-bold text-accent'>{about.title}</h3>
-                <p className='max-w-full text-white/60 text-left mx-auto xl:mx-0'>{about.description}</p>
+                <p className='max-w-full text-white/60 text-justify mx-auto xl:mx-0'>{about.description}</p>
                 <ul className='grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-10  max-w-full  xl:mx-0'>
                   {about.info.map((item, index) => {
                     return (
