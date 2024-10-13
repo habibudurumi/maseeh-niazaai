@@ -37,7 +37,7 @@ export default function Home() {
             {/*social cv btn with media icons*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="./cv.pdf" target="_blanck" rel="noopener noreferrer">
-                <Button size={"lg"} className="uppercase flex items-center gap-2 bg-primary text-accent border border-accent rounded-full hover:bg-accent hover:text-primary transition-colors ease-in-out duration-500">
+                <Button size={"lg"} className="uppercase flex items-center gap-2 bg-primary text-accent border border-accent rounded-md hover:bg-accent hover:text-primary transition-colors ease-in-out duration-500">
                   <span>Download CV</span>
                   <FiDownload className="text-xl"/>
                 </Button>

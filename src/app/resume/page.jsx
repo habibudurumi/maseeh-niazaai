@@ -13,7 +13,7 @@ const Resume = () => {
     <motion.div initial={{opacity: 0}} animate={{opacity:1, transition:{delay:2.4, duration:0.4, ease:'easeIn'}}} className='h-full flex justify-center items-center py-12'>
       <div className="container mx-auto pt-10 xl:pt-8 pb-24">
         <Tabs defaultValue='about' className='flex  xl:flex-row flex-col gap-[60px]'>
-          <TabsList className='flex w-full xl:overflow-hidden flex-row xl:flex-col xl:max-w-[400px] mx-auto xl:mx-0 gap-3 xl:gap-5'>
+          <TabsList className='flex w-full xl:overflow-hidden flex-row xl:flex-col xl:max-w-[300px] mx-auto xl:mx-0 gap-3 xl:gap-5'>
             <TabsTrigger value='about'>About Me</TabsTrigger>
             <TabsTrigger value='experience'>Experience</TabsTrigger>
             <TabsTrigger value='skills'>Skills</TabsTrigger>

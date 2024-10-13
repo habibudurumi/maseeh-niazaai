@@ -22,11 +22,13 @@ const MobileMenu = () => {
         </SheetTrigger>
         <SheetContent className="flex flex-col">
             <div className="mt-20 mb-20 text-2xl text-center">
+                <SheetClose>
                     <Link href='/'>
                         <h1 className="text-4xl font-semibold flex justify-center items-center">
                             <Image src="/niazaai.svg" height={120} width={170}/>
                         </h1>
                     </Link> 
+                </SheetClose>
                     
             </div>  
             <nav className="flex flex-col justify-center items-center gap-8">

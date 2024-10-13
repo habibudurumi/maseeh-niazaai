@@ -15,7 +15,7 @@ const Freelance = () => {
             <p className="mt-5">Embarking on freelancing journey as a side hustle in 2019, I positioned myself on renowned platforms such as Fiverr, Guru, Freelancer, and Upwork, establishing and cultivating meaningful relationships with an array of international clients. I have demonstrated my versatility by crafting and delivering numerous bespoke software solutions for clients across the globe, I'm a dedicated and innovative professional poised to excel in the dynamic freelancing landscape.
             </p>
             <Link href='/contact'>
-              <Button className="mt-5 capitalize text-lg py-6 px-10">contact me</Button>
+              <Button className="mt-5 capitalize text-lg py-6 px-10 rounded-md">contact me</Button>
             </Link>
           </div>
           

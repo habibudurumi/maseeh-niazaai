@@ -21,7 +21,7 @@ const Projects = () => {
               return (
                 <div key={index} className="group m-4">
                   <Link href={"/projects/" + project.slug} className="relative overflow-hidden">
-                    <Image src={project.image} width={500} height={300} alt={project.  category} className="h-full w-full rounded-md" />
+                    <Image src={project.image} width={500} height={300} alt={project.  category} className="h-full w-full rounded-md object-cover" />
                     <div className="absolute w-full h-full bg-black/50 flex items-center justify-center bottom-0 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
                       <Button className="capitalize rounded-sm">more info</Button>
                     </div>
