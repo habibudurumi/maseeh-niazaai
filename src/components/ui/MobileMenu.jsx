@@ -23,9 +23,12 @@ const MobileMenu = () => {
         <SheetContent className="flex flex-col">
             <div className="mt-20 mb-20 text-2xl text-center">
                 <SheetClose>
+                        
                     <Link href='/'>
                         <h1 className="text-4xl font-semibold flex justify-center items-center">
+                        <SheetPrimitive.Close>
                             <Image src="/niazaai.svg" height={120} width={170}/>
+                        </SheetPrimitive.Close>
                         </h1>
                     </Link> 
                 </SheetClose>

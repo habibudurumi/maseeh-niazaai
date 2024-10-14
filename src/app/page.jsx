@@ -22,7 +22,7 @@ export default function Home() {
              
               <h1 className="h2 gap-0">
                 <span className="flex items-center gap-0 text-center justify-center xl:justify-start">
-                   <Image src='/assets/wave.png' alt="wave" width={30} height={30} className="mr-2" />
+                   <Image src='/assets/wave.png' alt="wave" width={30} height={30} className="mr-2 " />
                     Hello I'm 
                 </span>
                <br /><span className="text-accent block h1">Maseeh Niazaai</span>

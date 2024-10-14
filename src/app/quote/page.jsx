@@ -54,7 +54,7 @@ const Quote = () => {
                 <span className="block font-bold text-accent">Maseeh Niazaai</span>
               </p>
               <Link href='/contact'>
-                <Button className="mt-5 py-5 px-8 hover:bg-accent/50">Request for Web Service </Button>
+                <Button className="mt-5 py-5 rounded-md px-8 hover:bg-accent/50">Request for Web Service </Button>
               </Link>          
             </div>
             <ScrollArea className="h-[400px] md:w-1/2 pr-4">

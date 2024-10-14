@@ -129,7 +129,7 @@ export const about = {
     {fieldName: 'Phone', fieldValue:'+93792781462'},
     {fieldName: 'Experience', fieldValue:'7+ years'},
     {fieldName: 'Nationality', fieldValue:'Afghan'},
-    {fieldName: 'Email', fieldValue:'maseeh.niazaai@gmail.com'},
+    {fieldName: 'Email', fieldValue:'maseeh@niazaai.com'},
     {fieldName: 'Freelance', fieldValue:'available'},
     {fieldName: 'Language', fieldValue:'English, Afghan, Arabic'},
     {fieldName: 'Github', fieldValue:'Niazaai Maseeh'},
@@ -245,6 +245,6 @@ export const skills = {
 
 export const info = [
   { icon: <FaPhoneAlt />, title: "phone", description: <a href="tel:+93792781462">+93 792 78 1462</a> },
-  { icon: <FaEnvelope />, title: "Email", description: <a href="maito:maseeh.niazaa@gmail.com">maseeh.niazaa@gmail.com</a> },
+  { icon: <FaEnvelope />, title: "Email", description: <a href="maito:maseeh@niazaai.com">maseeh@niazaai.com</a> },
  
 ];
